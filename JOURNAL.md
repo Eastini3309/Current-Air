@@ -1,4 +1,4 @@
-# 📓 Vent Project Journal
+# 📓 Current Air Project Journal
 
 Note: Vent is my second personal passion project, following my first project Soil-Sip. I'm using this journal to log my process, track my design decisions, and document what I work on each session as I build it out.
 
