@@ -20,3 +20,12 @@ Note: Vent is my second personal passion project, following my first project Soi
 * **Details:** I updated my physical blueprint to add an external 3x AA battery holder so I can make the whole setup portable. After that, I jumped over to Wokwi to try and build out the project virtually, but I ran into a ton of roadblocks. Wokwi doesn't have the exact parts I'm using, so I had to improvise: I swapped my BME680 for a DHT22, used an MQ-2 gas sensor to measure CO instead of CO2 since the SCD40 wasn't there, and couldn't find any batteries, battery holders, or an active buzzer. I was trying to figure out workarounds for all of that, leaning pretty heavily on Google Gemini AI overviews to help me troubleshoot. Honestly, I got a bit frustrated trying to force everything to work in the simulator, so I decided to just call it a day.
 * **Updated Blueprint Photo:** [View Updated Blueprint](https://drive.google.com/file/d/1aOsao434NT7G3uqQHxpTEgjSnbRmC0ax/view?usp=drivesdk)
 * **Session Recording:** [Watch Wokwi Working Session](https://drive.google.com/file/d/1oPV1K88opava_yAAJkQIbirTWPfTFBfW/view?usp=drivesdk)
+
+---
+
+## 📅 Sunday, October 18, 2026
+
+* **Task:** Wiring Cleanup, Screen Navigation Buttons & Hardware Adjustments
+* **Time Spent:** ~32 minutes (5:34 PM - 6:06 PM)
+* **Details:** Fixed up some wiring to keep the breadboard clean. Realized I need a way to scroll between different pages on the LCD display, so I added two tactile push buttons to handle screen switching. For the buzzer, I decided to use the default Wokwi component even though it acts as a passive buzzer in the simulator (I'll work out the code for it). Also found out Wokwi automatically handles power, so adding explicit battery models in the simulator isn't necessary. Planning to focus on code next session. *(Note: If I appear inactive in the video, I was researching for alternatives like buzzers and batteries for Wokwi on my iPad).*
+* **Session Recording:** [Watch Wokwi Working Session](https://drive.google.com/file/d/1MwribJjVjY2OWLpY8Z_5jSdzpAUlVDD2/view?usp=drivesdk)
